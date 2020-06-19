@@ -1,0 +1,91 @@
+@font-face {
+    font-family: "mifuente";
+    src: url('Organa-Light.eot');
+    src: local('Organa Light'), local('Organa-Light'),
+        url('Organa-Light.eot?#iefix') format('embedded-opentype'),
+        url('Organa-Light.woff2') format('woff2'),
+        url('Organa-Light.woff') format('woff'),
+        url('Organa-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+.carousel-item{
+    width: 100%;
+    height: 540px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+  }
+  
+  @media (max-width: 600px) {
+    .carousel-item {
+      height: 280px;
+    }   
+  }
+
+
+body{
+    min-height: 100vh;
+    background-image: repeating-linear-gradient(#424242,#999999,#d1d1d1);
+    }
+
+.color1{
+    background: #34495e;
+    color: #fff; 
+    
+}
+aside{
+    background: #c0392b;
+    color: #fff;
+}
+footer{
+    background: #16a085;
+    color: #fff;
+}
+h2{
+    text-align: right;
+    font-family: "mifuente";
+}
+h1{
+    color: rgb(52, 89, 211);
+    font-family: 'Questrial' sans-serif;
+    text-shadow: 5px 5px 5px rgb(70, 70, 70);
+    text-align: center;
+}
+h4{
+    text-align: right   ;
+
+}
+h3{
+    text-align: center;
+    font-family: "mifuete";
+}
+script{
+    font-family: "mifuente";
+}
+.miler2{
+max-width: 100px;
+}
+h5{
+    color: black;
+    text-align: center;
+}
+p{
+    color: black;
+    text-align: center;
+}
+img{
+    max-width: 100%;    
+}
+.m1
+{
+    background-color: #c0392b;
+}
+.m2{
+    background-color: #16a085;
+}
+.m3{
+    background-color: gold;
+}
